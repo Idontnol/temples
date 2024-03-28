@@ -37,6 +37,9 @@
     align-items:center;
     gap:3px;
 }
+.footer1 >p{
+    margin:0px;
+}
 .footer4>ul{
     list-style: none;
     display: flex;
@@ -79,8 +82,17 @@
     .footer1{
         margin-top:7px;
     }
+    .footer1 >p{
+        margin-top:8px;
+        margin-bottom:6px;
+    }
 }
 .footer-icons{
     height:32px;
     width:40px !important;
+}
+@media (min-width: 1000px){
+    .footer2 >ul, .footer3>ul{
+        margin-top:0px;
+    }
 }

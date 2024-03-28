@@ -37,10 +37,10 @@ const Footer=()=>{
             </div>
             <div className="footer4">
                 <ul className="">
-                    <li style={{ color: '#1cbeeb' }} ><FaTwitter className="footer-icons" /></li>
-                    <li style={{ color: '#1cbeeb' }} > <FaInstagram className="footer-icons" /></li>
-                    <li style={{ color: '#1cbeeb' }} ><FaFacebookSquare className="footer-icons" /></li>
-                    <li style={{ color: '#1cbeeb' }} ><SiLinkedin className="footer-icons" /></li>
+                   <a href='https://twitter.com/tofi_official'> <li style={{ color: '#1cbeeb' }} > <FaTwitter className="footer-icons" /></li></a>
+                   <a href="https://www.instagram.com/tofi_in/"> <li style={{ color: '#1cbeeb' }} > <FaInstagram className="footer-icons" /></li></a>
+                   <a href="https://www.facebook.com/tofi.fb"> <li style={{ color: '#1cbeeb' }} ><FaFacebookSquare className="footer-icons" /></li></a>
+                   <a href="https://www.linkedin.com/company/temples-of-india/">  <li style={{ color: '#1cbeeb' }} ><SiLinkedin className="footer-icons" /></li></a>
                 </ul>
             </div>
         </div>

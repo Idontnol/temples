@@ -6,6 +6,7 @@ import { RiArrowDropDownLine,RiArrowDropUpLine  } from "react-icons/ri";
 import {useState} from 'react';
 import { MdDirectionsRailway } from "react-icons/md";
 import { IoCheckmark } from "react-icons/io5";
+import { FcAbout } from "react-icons/fc";
 import './index.css';
 
 const sectionData=[{
@@ -248,7 +249,8 @@ const Home=()=>{
                 <hr style={{height: '-2px', borderColor: '#ddd', margin: '10px 0px'}} />
                 <div className="" >Comments</div>
             </div>
-            
+           <div className="floater"
+           ><FcAbout className="floating-icon" /></div> 
         </div>
     )
 }

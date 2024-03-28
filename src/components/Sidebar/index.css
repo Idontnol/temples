@@ -1,0 +1,21 @@
+.sidebarContainer{
+    width:70vw;
+    position:fixed;
+    height:100vh;
+    top:0px;
+    background-color:white;
+}
+.sidebarTop{
+
+}
+.set-color{
+    color:#a50740;
+    height:;
+    width:;
+}
+.sidebarBottom div{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    cursor:pointer;
+}
